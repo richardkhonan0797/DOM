@@ -84,8 +84,8 @@ function draw() {
       bY + bird.height >= cvs.height - fg.height
     ) {
       hit.play();
-      alert('gameover')
       location.reload(); // reload the page
+      alert('gameover')
     }
 
     if (pipe[i].x == 5) {
